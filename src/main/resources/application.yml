@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://rm-bp1t432645y3fe6w1so.mysql.rds.aliyuncs.com:3306/test_1?useUnicode=yes&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    username: qx
+    password: 'qx815912@'
+
+mybatis:
+    mapper-locations: classpath:mapper/*.xml  #????mybatis?xml??
+server:
+  servlet:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
